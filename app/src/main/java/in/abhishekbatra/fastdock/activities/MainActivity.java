@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
         mListView = (ListView) findViewById(R.id.list_main);
         mStrings = new ArrayList<>();
-        mStrings.add("Source: Abhishek Batra");
         mAdapter = new ArrayAdapter<>(this, R.layout.item_main, R.id.list_text_main, mStrings);
         mListView.setAdapter(mAdapter);
 
